@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavBar from "./Layout/Navbar.js";
 import Home from "./Pages/Home/HomePage";
 import Personal from "./Pages/Personal/PersonalPage";
+import Coaching from "./Pages/Coaching/CoachingPage";
 import PublicationsPage from "./Pages/Publications/PublicationsPage";
 import { Layout } from 'antd';
 import './App.css';
@@ -16,6 +17,7 @@ class App extends Component {
             <NavBar />
             <Route name="home" exact path="/" component={Home} />
             <Route name="personal" exact path="/personal" component={Personal} />
+            <Route name="coaching" exact path="/coaching" component={Coaching} />
             <Route name="publications" exact path="/publications" component={PublicationsPage} />
           </div>
         </Router>

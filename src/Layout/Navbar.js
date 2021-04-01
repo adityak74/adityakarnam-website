@@ -49,26 +49,26 @@ class NavBar extends Component {
                 Publications
               </Link>
             </Menu.Item>
-            <Menu.Item key="teaching">
-              <Link to="">
+            <Menu.Item key="coaching">
+              <Link to="/coaching">
                 <Icon type="read" />
-                Coaching
+                Mentorship
               </Link>
             </Menu.Item>
             <Menu.Item key="software">
-              <Link to="">
+              <Link to="/software">
                 <Icon type="branches" />
                 Software
               </Link>
             </Menu.Item>
             <Menu.Item key="personal">
-              <Link to="">
+              <Link to="/personal">
                 <Icon type="user" />
                 Personal
               </Link>
             </Menu.Item>
             <Menu.Item key="companies">
-              <Link to="">
+              <Link to="/companies">
                 <Icon type="bulb" />
                 Companies
               </Link>

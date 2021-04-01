@@ -37,7 +37,7 @@ class HomePage extends Component {
                       bodyStyle={{ fontSize: 24 }}
                       style={{ backgroundColor: 'rgba(255, 255, 255, 0.8)', width: 600 }}>
                       <h4>Full Stack Developer | Entrepreneur |  Coach</h4>
-                      <p>"We are nothing but <i>space</i> dust trying to find its way back to the stars" -David Jones.</p>
+                      <p style={{ fontSize: 16 }}>"We are nothing but <i>space</i> dust trying to find its way back to the stars" -David Jones.</p>
                       <Row>
                         <Col span={4} className='social-icon-column'>
                           <Button

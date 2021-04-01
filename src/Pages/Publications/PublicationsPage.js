@@ -45,7 +45,7 @@ class HomePage extends Component {
       <Layout>
         <Carousel
           autoplay
-          dotPosition='bottom'
+          dots={false}
           style={{
             width: '100%',
             minHeight: '100vh'

@@ -1,0 +1,40 @@
+{
+  "journey": [
+    {
+      "text": "Android Club VIT Chennai",
+      "active": false
+    },
+    {
+      "text": "ITechnospot - Blogged 100+ articles",
+      "active": false
+    },
+    {
+      "text": "Eventze - Co-Founder - mentored and manged a team of 15",
+      "active": false
+    },
+    {
+      "text": "Univeristy Of Missouri - Teaching Assistant - iOS",
+      "active": false
+    },
+    {
+      "text": "Graduate Research Assistant - Mentored fellow researchers",
+      "active": false
+    },
+    {
+      "text": "Mentored Interns at Finteh Startup - ePlata",
+      "active": false
+    },
+    {
+      "text": "Aakashgangaa Space - founder, managed and mentored 15+ interns",
+      "active": true
+    },
+    {
+      "text": "Full-time Career Coach - Heycoach.in",
+      "active": true
+    },
+    {
+      "text": "Knockmydoors app - mentoring and managing 5+ interns",
+      "active": true
+    } 
+  ]
+}
