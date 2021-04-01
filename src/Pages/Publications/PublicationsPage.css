@@ -1,0 +1,27 @@
+.bounding-box {
+  background-image: url('background.jpg');
+  background-size: cover;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.bounding-box-gray {
+  background-color:rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.content-column-left-carousel-publications {
+  height: 100vh;
+  align-content: center;
+  align-items: center;
+  display: flex !important;
+  margin: auto;
+}

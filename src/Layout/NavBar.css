@@ -1,0 +1,10 @@
+.header-layout {
+  color: #ffffff;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.ant-layout-header {
+  background-color: #ffffff;
+}
