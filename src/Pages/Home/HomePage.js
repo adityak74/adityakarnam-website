@@ -8,6 +8,7 @@ import {
   Layout,
 } from "antd";
 import {
+  CalendarOutlined,
   InstagramOutlined,
   FacebookOutlined,
   TwitterOutlined,
@@ -15,9 +16,16 @@ import {
   MediumOutlined,
   LinkedinOutlined,
 } from '@ant-design/icons';
+import { openPopupWidget } from 'react-calendly';
+import {
+  compose,
+  withHandlers,
+  withState,
+} from 'recompose';
 
-class HomePage extends Component {
-  render() {
+const HomePage = ({
+  showCalendlyPopup,
+}) => {
     return (
       <Layout>
         <Row style={{ marginTop: '-7vh' }}>
@@ -88,6 +96,13 @@ class HomePage extends Component {
                           />
                         </Col>
                       </Row>
+                      <Row>
+                        <Col span={24} className='button-icon-column-centered'>
+                          <Button type="primary" onClick={showCalendlyPopup} shape="round" icon={<CalendarOutlined />} size='large'>
+                            Book a Mentorship Meeting
+                          </Button>
+                        </Col>
+                      </Row>
                     </Card>
                   </Col>
                   <Col span={14} className='content-column-right'>
@@ -99,6 +114,13 @@ class HomePage extends Component {
         </Row>
       </Layout>
     );
-  }
 }
-export default HomePage;
+
+const enhance = compose(
+  withState('calendlyUrl', 'setCalendlyUrl', 'https://calendly.com/adityakarnam/aditya-karnam-mentorship'),
+  withHandlers({
+    showCalendlyPopup: ({ calendlyUrl }) => () => openPopupWidget({ url: calendlyUrl }),
+  }),
+);
+
+export default enhance(HomePage);

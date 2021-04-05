@@ -55,12 +55,6 @@ class NavBar extends Component {
                 Mentorship
               </Link>
             </Menu.Item>
-            <Menu.Item key="software">
-              <Link to="/software">
-                <Icon type="branches" />
-                Software
-              </Link>
-            </Menu.Item>
             <Menu.Item key="personal">
               <Link to="/personal">
                 <Icon type="user" />
