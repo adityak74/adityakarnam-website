@@ -1,8 +1,8 @@
 {
-  "name": "academicportfolio",
-  "version": "0.1.0",
+  "name": "aditya-portfolio-new",
+  "version": "1.0.0",
   "private": true,
-  "homepage": "https://sehgalvibhor.github.io/academicportfolio",
+  "homepage": "https://github.com/adityak74/adityakarnam-website",
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
     "antd": "^4.15.0",
