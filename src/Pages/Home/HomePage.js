@@ -60,7 +60,7 @@ const HomePage = ({
                           <a href='https://uncomment.dev/' target='_blank'>
                             <img src={uncommentDevImage} style={{ width: 120 }} />
                             <Button type="primary" shape="round" size='large'>
-                              Hear me on Uncomment.dev
+                              Listen to my podcast on Uncomment.dev
                             </Button>
                           </a>
                         </Col>
