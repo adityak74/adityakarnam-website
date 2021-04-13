@@ -11,7 +11,7 @@ class CompaniesPage extends Component {
           <Col xs={12} sm={12} md={12} lg={12} xl={12} style={{ marginTop: '7vh', padding: 50 }}>
             <div className="landingPage">
               <center style={{ marginTop: '7vh' }}>
-                <a href="https://aakashgangaa.space/" target='_blank'>
+                <a href="https://aakashgangaa.space/" target='_blank' rel='noopener noreferrer'>
                   <img src={aakashgangaaLogo} width={475} />
                   <h2 style={{ padding: 10 }}>Aakashgangaa Space</h2>
                 </a>
@@ -21,7 +21,7 @@ class CompaniesPage extends Component {
           <Col style={{ background: 'rgb(127,127,127)', background: 'linear-gradient(180deg, rgba(127,127,127,1) 0%, rgba(18,18,18,1) 100%)', marginTop: '7vh', minHeight: '100vh', padding: 50 }} xs={12} sm={12} md={12} lg={12} xl={12}>
             <div className="landingPage">
               <center style={{ marginTop: '7vh' }}>
-                <a href="https://knockmydoors.in/" target='_blank'>
+                <a href="https://knockmydoors.in/" target='_blank' rel='noopener noreferrer'>
                   <img src={kmdLogo} width={500} />
                   <h2 style={{ padding: 10, color: "white" }}>Knockmydoors</h2>
                 </a>

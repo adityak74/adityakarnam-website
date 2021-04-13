@@ -57,7 +57,7 @@ const HomePage = ({
                       </Row>
                       <Row style={{ backgroundColor: '#000000cc', borderRadius: 100, margin: 25 }}>
                         <Col span={24} className='button-icon-column-centered-no-margin'>
-                          <a href='https://uncomment.dev/' target='_blank'>
+                          <a href='https://uncomment.dev/' target='_blank' rel='noopener noreferrer'>
                             <img src={uncommentDevImage} style={{ width: 120 }} />
                             <Button type="primary" shape="round" size='large'>
                               Listen to my podcast on Uncomment.dev
