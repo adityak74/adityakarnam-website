@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: "12.x"
       - run: npm install
-      - run: npm run build
+      - run: npm run build:noci
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@v1.5.0
         with:
