@@ -7,8 +7,9 @@ import {
   Card,
   Layout,
 } from "antd";
-import {
+import Icon, {
   CalendarOutlined,
+  CustomerServiceOutlined,
   InstagramOutlined,
   FacebookOutlined,
   TwitterOutlined,
@@ -22,6 +23,7 @@ import {
   withHandlers,
   withState,
 } from 'recompose';
+import uncommentDevImage from './uncomment.dev.png';
 
 const HomePage = ({
   showCalendlyPopup,
@@ -103,9 +105,19 @@ const HomePage = ({
                           </Button>
                         </Col>
                       </Row>
+                      <Row>
+                        <Col span={8} className='button-icon-column-centered'>
+                          <img src={uncommentDevImage} style={{ width: 180 }} />
+                        </Col>
+                        <Col span={16} className='button-icon-column-centered'>
+                          <a href='https://uncomment.dev/' target='_blank'>
+                            <Button type="primary" shape="round" size='large'>
+                              Hear me on Uncomment.dev
+                            </Button>
+                          </a>
+                        </Col>
+                      </Row>
                     </Card>
-                  </Col>
-                  <Col span={14} className='content-column-right'>
                   </Col>
                 </Row>
               </div>
