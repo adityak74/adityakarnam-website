@@ -41,6 +41,13 @@
   margin-top: 25px;
 }
 
+.button-icon-column-centered-no-margin {
+  align-content: center;
+  align-items: center;
+  display: flex !important;
+  justify-content: center;
+}
+
 .button-transparent {
   width: 100%;
   height: 100%;

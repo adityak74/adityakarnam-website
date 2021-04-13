@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./HomePage.css";
 import {
   Button,
@@ -6,10 +6,10 @@ import {
   Col,
   Card,
   Layout,
+  Divider,
 } from "antd";
-import Icon, {
+import {
   CalendarOutlined,
-  CustomerServiceOutlined,
   InstagramOutlined,
   FacebookOutlined,
   TwitterOutlined,
@@ -48,6 +48,24 @@ const HomePage = ({
                       style={{ backgroundColor: 'rgba(255, 255, 255, 0.8)', width: 600 }}>
                       <h4>Full Stack Developer | Entrepreneur |  Coach</h4>
                       <p style={{ fontSize: 16 }}>"We are nothing but <i>space</i> dust trying to find its way back to the stars" -David Jones.</p>
+                      <Row>
+                        <Col span={24} className='button-icon-column-centered'>
+                          <Button type="primary" onClick={showCalendlyPopup} shape="round" icon={<CalendarOutlined />} size='large'>
+                            Book a Mentorship Meeting
+                          </Button>
+                        </Col>
+                      </Row>
+                      <Row style={{ backgroundColor: '#000000cc', borderRadius: 100, margin: 25 }}>
+                        <Col span={24} className='button-icon-column-centered-no-margin'>
+                          <a href='https://uncomment.dev/' target='_blank'>
+                            <img src={uncommentDevImage} style={{ width: 120 }} />
+                            <Button type="primary" shape="round" size='large'>
+                              Hear me on Uncomment.dev
+                            </Button>
+                          </a>
+                        </Col>
+                      </Row>
+                      <Divider />
                       <Row>
                         <Col span={4} className='social-icon-column'>
                           <Button
@@ -96,25 +114,6 @@ const HomePage = ({
                             href="https://www.linkedin.com/in/adityakarnamgrao/"
                             icon={<LinkedinOutlined />}
                           />
-                        </Col>
-                      </Row>
-                      <Row>
-                        <Col span={24} className='button-icon-column-centered'>
-                          <Button type="primary" onClick={showCalendlyPopup} shape="round" icon={<CalendarOutlined />} size='large'>
-                            Book a Mentorship Meeting
-                          </Button>
-                        </Col>
-                      </Row>
-                      <Row>
-                        <Col span={8} className='button-icon-column-centered'>
-                          <img src={uncommentDevImage} style={{ width: 180 }} />
-                        </Col>
-                        <Col span={16} className='button-icon-column-centered'>
-                          <a href='https://uncomment.dev/' target='_blank'>
-                            <Button type="primary" shape="round" size='large'>
-                              Hear me on Uncomment.dev
-                            </Button>
-                          </a>
                         </Col>
                       </Row>
                     </Card>

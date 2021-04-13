@@ -1,1 +1,6 @@
 node_modules
+build/static
+build/asset-*.json
+build/index.html
+build/precache-manifest*.js
+build/service-worker.js
