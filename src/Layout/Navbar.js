@@ -43,6 +43,12 @@ class NavBar extends Component {
                 Home
               </Link>
             </Menu.Item>
+            <Menu.Item key="companies">
+              <Link to="/companies">
+                <Icon type="bulb" />
+                Companies
+              </Link>
+            </Menu.Item>
             <Menu.Item key="publications">
               <Link to="/publications">
                 <Icon type="file-done" />
@@ -63,12 +69,6 @@ class NavBar extends Component {
               </Link>
             </Menu.Item>
             */}
-            <Menu.Item key="companies">
-              <Link to="/companies">
-                <Icon type="bulb" />
-                Companies
-              </Link>
-            </Menu.Item>
           </Menu>
         </Header>
       </div>
