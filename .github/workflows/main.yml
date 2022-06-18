@@ -17,7 +17,7 @@ jobs:
       - run: npm install
       - run: npm run build:noci
       - name: Deploy to Firebase
-        uses: w9jds/firebase-action@v2.0.0
+        uses: w9jds/firebase-action@v2.2.2
         with:
           args: deploy --only hosting --project aditya-karnam-portfolio
         env:
