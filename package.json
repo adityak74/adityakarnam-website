@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://adityakarnam.me/",
   "dependencies": {
-    "@ant-design/icons": "4.6.4",
+    "@ant-design/icons": "4.8.3",
     "antd": "4.16.13",
     "babel-plugin-import": "1.13.3",
     "react": "17.0.2",
